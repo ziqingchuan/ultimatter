@@ -71,7 +71,7 @@
 }
 
 .matter-card--lg .matter-card__name {
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .matter-card__rarity {
@@ -79,7 +79,6 @@
   color: var(--rarity-color);
   text-transform: uppercase;
   white-space: nowrap;
-  letter-spacing: 0.05em;
   font-weight: 600;
   text-shadow: 0 0 6px rgba(var(--rarity-color-rgb), 0.5);
 }
