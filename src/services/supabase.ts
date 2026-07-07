@@ -65,7 +65,7 @@ export async function createMatter(
 
   const { data, error } = await sb
     .from('matters')
-    .insert({ name, rarity, inventor, is_basic: false })
+    .insert({ name, rarity, inventor, is_basic: false } as any)
     .select()
     .single();
 
@@ -92,7 +92,7 @@ export async function createSynthesisRule(
       ingredient_a: ingredientAId,
       ingredient_b: ingredientBId,
       result: resultId,
-    })
+    } as any)
     .select()
     .single();
 
