@@ -1,0 +1,25 @@
+.conflict-alert {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+  padding: var(--spacing-md);
+  background: rgba(220, 38, 38, 0.08);
+  border: 1px solid rgba(220, 38, 38, 0.3);
+  border-radius: var(--radius-md);
+}
+
+.conflict-alert__item {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+.conflict-alert__icon {
+  flex-shrink: 0;
+  color: #ef4444;
+}
+
+.conflict-alert__text {
+  font-size: 0.85rem;
+  color: #fca5a5;
+}

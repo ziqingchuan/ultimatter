@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "deployments": [
+    {
+      "slug": "ultimatter-game",
+      "title": "终质合成",
+      "base": "dist",
+      "entry": "index.html",
+      "visibility": "internal",
+      "glob": [
+        "**/*"
+      ],
+      "exclude": [],
+      "lastDeployedAt": "2026-07-07T02:32:58.680115+00:00"
+    }
+  ]
+}
